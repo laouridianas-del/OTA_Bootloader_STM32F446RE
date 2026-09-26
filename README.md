@@ -1,4 +1,4 @@
-#OTA_Bootloader_STM32F446RE
+# OTA_Bootloader_STM32F446RE
 I started with a simple bootloader which validate the application using a magic number,application size and crc.all of those parameters are stored in a specific region of the flash memory"App_header",this region is accessed by both the application and the bootloader, the application write the parameters and the bootloader read it,if it is correct the bootloader jump directly to the application. then I started the Ota implementation by adding another parameter to the app header which is "Ota_flag", this Ota flag is set by pressing the user button of my board for simulate that an application update is requesting, when the application find the Ota flag is set ,it calls the Ota process that represented by these steps:
 ●Ota flag is set
 ●soft reset for returning to the bootloader 
