@@ -1,0 +1,10 @@
+OTA.c:21:5:check_ota_request	32	static
+OTA.c:50:6:bl_crc_init	16	static
+OTA.c:55:6:bl_crc_update	32	static
+OTA.c:70:10:bl_crc_finalize	16	static
+OTA.c:74:10:bl_flash_erase_app	16	static
+OTA.c:82:6:bl_flash_write_app_header	56	static
+OTA.c:108:6:bl_ota_begin	24	static
+OTA.c:118:5:bl_ota_write_chunk	40	static
+OTA.c:145:5:bl_ota_finalize	24	static
+OTA.c:163:5:bl_ota_run	304	static

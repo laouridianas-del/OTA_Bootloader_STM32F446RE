@@ -1,0 +1,4 @@
+flash_operations.c:11:6:flash_read_sector	24	static
+flash_operations.c:21:10:flash_erase_app	32	static
+flash_operations.c:35:10:flash_erase_header	32	static
+flash_operations.c:49:6:flash_write_word	16	static
